@@ -31,25 +31,3 @@ class Config:
     BOT_ID = ""
     BOT_NAME = ""
 
-
-class Development:
-    """Development class for variables."""
-
-    # Fill in these vars if you want to use Traditional method of deploying
-    LOGGER = True
-    BOT_TOKEN = "5620483129:AAFwFPduIUjI6c3Wlyq1_mAEGkDtQbuMgx8"
-    APP_ID = 23890262  # Your APP_ID from Telegram
-    API_HASH = "da7e86cf57b0e6220b8a9e0aed228a68"  # Your APP_HASH from Telegram
-    OWNER_ID = 12345  # Your telegram user id
-    MESSAGE_DUMP = 0  # Your Private Group ID for logs
-    DEV_USERS = []
-    SUDO_USERS = []
-    WHITELIST_USERS = []
-    DB_URI = "mongodb_url"
-    DB_NAME = "alita"
-    NO_LOAD = []
-    PREFIX_HANDLER = ["!", "/"]
-    SUPPORT_GROUP = "SUPPORT_GROUP"
-    SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
-    ENABLED_LOCALES = ["ENABLED_LOCALES"]
-    WORKERS = 8
